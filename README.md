@@ -5,7 +5,7 @@
 So far, we have implemented the Debdeb System. The Tuun System is in the early stages of development, with a few planets being playable now. The Qeg System is being conceptualized (an uncertain feature).
 
 All content for Promised Worlds is being designed in-house. We are not using any KSP 2 assets. 
-
+ 
 Each world has been meticulously crafted to align with KSP 2 development screenshots and data mining discoveries. For celestial bodies lacking implementation details (e.g., Dorau), we are applying creative liberties to attain what we feel were the KSP 2 developers' intentions.
 
 Promised Worlds is currently in early access. Planets, moons, and other features are being added incrementally in updates. We're nearing a full release now with only a handful of features left to add. 
