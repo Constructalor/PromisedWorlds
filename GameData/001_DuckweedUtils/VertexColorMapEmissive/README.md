@@ -10,13 +10,13 @@ VertexColorMapEmissive is a custom PQS Mod intended for use by planet modders to
 ## Reasoning behind creation:
 * Qualities I believe an emissive mod should have
   * It should cover ScaledSpace, PQS, and Ocean emissives with a single unified and coherent format.
-  * It should allow the use of a full color texture with transparency.
+  * It should allow the use of a full color texture.
   * it should not have visual artifacts with stock ScaledSpace, PQS, or Oceans.
 
 ## Features and comparison to alternatives:
 * VertexColorMapEmissive
   * Pros
-    * Full RGBA colormap support
+    * Full RGB(A) colormap support
     * Unified solution for ScaledSpace, PQS, and Ocean emissives
     * No ocean z-fighting
   * Cons
@@ -38,11 +38,16 @@ VertexColorMapEmissive is a custom PQS Mod intended for use by planet modders to
     * Does not support Ocean emissives
 
 ## Parameters and expected values:
-* map: The RGBA texture to use as the emissive map
-* brightness: global multiplier to the color channels of the map
+* blendMode: controls how the emissive texture is blended with the existing planet color
+  * Additive: Directly add the emissive texture color values to the color values of the existing texture.
+  * AlphaBlend: (legacy, default) Blend between the emissive texture color and the existing texture color, weighted by the emissive texture alpha chanel and the transparency value.  Will be removed in a future update.
+* map: The texture to use as the emissive map. Recommended formats:
+  * blendMode - Additive: dxt1 (no alpha channel, smaller file size)
+  * blendMode - AlphaBlend: dxt5 (has alpha channel, larger file size)
+* brightness: global multiplier to the color channels of the map. Optional.
   * default value: 1
   * values greater 1 increase brightness, values less than 1 decrease brightness
-* transparency: global multiplier to the alpha channel of the map
+* transparency: (legacy) global multiplier to the alpha channel of the map. Optional, use only with blendMode - AlphaBlend.  Will be removed in a future update.
   * default value: 0.5
   * values greater 1 decrease transparency, values less than 1 increase transparency
 
@@ -59,18 +64,16 @@ VertexColorMapEmissive is a custom PQS Mod intended for use by planet modders to
   ![PQS](ExampleImages/PQSEmissive.png)
 
 ## Requirements
-* [ModuleManager](https://forum.kerbalspaceprogram.com/index.php?/topic/50533-18x-112x-module-manager-422-june-18th-2022-the-heatwave-edition/)
-* [Kopernicus](https://forum.kerbalspaceprogram.com/index.php?/topic/200143-180-1123-kopernicus-stable-branch-last-updated-august-12th-2022/)
+* [ModuleManager](https://forum.kerbalspaceprogram.com/topic/50533-18x-112x-module-manager-423-july-03th-2023-fireworks-season/)
+* [Kopernicus](https://forum.kerbalspaceprogram.com/topic/200143-112x-kopernicus-stable-branch-last-updated-may-8th-2025/)
 
 ## FAQ
 * Q. I'm not a planet modder? Do I need this?
 * A. You do not need to install it manually yourself, but if you found this in your GameData, it is because a planet pack you have/had needs/needed it and so it was either included with the mod or auto installed through CKAN
-* Q. Is this compatible with Parallax?
-* A. In all honesty, I have never downloaded Parallax before, so I do not know.
+* Q. Is this compatible with Parallax Continued?
+* A. No, VertexColorMapEmissive is not compatible with Parallax Continued, which includes its own method of handling terrain emissives.
 * Q. Is this compatible with Scatterer oceans?
 * A. No, it will not function with Scatterer oceans, only stock oceans.
 
 ## Licensing
 * VertexColorMapEmissive is licensed under the MIT License
-
-
