@@ -11,3 +11,7 @@
 - (technical) Move all Debdeb planet names, descriptions, and biome names to localization
 - (technical) Update the version of the bundled VertexColorMapEmissive to 1.1.0
 - (documentation) Update README with information on CKAN and SpaceDock downloads
+
+## V1.0.3:
+- (MAJOR bugfix) Fixed null refs which Gurdamma was causing because it couldn't find the VertexColorMap textures
+- (bugfix) Fixed wormholes being invisible
