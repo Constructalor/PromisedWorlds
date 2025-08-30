@@ -7,7 +7,7 @@
 # Promised Worlds
 **Promised Worlds is a faithful revival of the solar systems Intercept Games planned to release for KSP 2. Want to brave the crater lakes of Gurdamma? Launch between the molten seas of Rask and Rusk? Our team of veteran KSP 1 modders is working around the globe to bring you those experiences—and more!**
 
-So far, we have implemented the Debdeb System. The Tuun System is in the early stages of development, with a few planets being playable now. The Qeg System is being conceptualized (an uncertain feature).
+So far, we have implemented the Debdeb System. The Tuun System is in the early stages of development, with a few planets implemented in development builds. The Qeg System is being conceptualized (an uncertain feature).
 
 All content for Promised Worlds is being designed in-house. We are not using any KSP 2 assets. 
  
