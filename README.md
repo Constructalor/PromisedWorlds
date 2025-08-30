@@ -1,9 +1,4 @@
-![](https://i.imgur.com/pngo3JN.png)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FKSP-CKAN%2FCKAN-meta%2Frefs%2Fheads%2Fmaster%2Fdownload_counts.json&query=PromisedWorldsCore&label=Downloads)
-![Last commit](https://img.shields.io/github/last-commit/PromisedWorlds/PromisedWorlds/main.svg)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/PromisedWorlds/PromisedWorlds)
-![KSP Version](https://img.shields.io/badge/KSP-1.12.x-blue.svg)
+ ![](https://i.imgur.com/74Iovs6.jpeg) 
 # Promised Worlds
 **Promised Worlds is a faithful revival of the solar systems Intercept Games planned to release for KSP 2. Want to brave the crater lakes of Gurdamma? Launch between the molten seas of Rask and Rusk? Our team of veteran KSP 1 modders is working around the globe to bring you those experiences—and more!**
 
@@ -45,6 +40,20 @@ In the PromisedWorlds directory there is PromisedWorldsSettings.cfg with options
 - FileAccurate (Remove anything not originally in the KSP 2 files)
 - RealisticStarSize (Makes the stars more realistically sized relative to the planets)
 
+# Changelog
+## V1.0.2:
+- (bugfix) Restored wormhole to the Debdeb system, if enabled. The Kerbol end is now around Dres. Finally, a purpose!
+- (bugfix) Made Charr's Hot Craters and Molten Craters dangerous as designed
+- (bugfix) Stopped a ModuleManager warning when loading the game
+- (bugfix) Change a duplicate Dorau entry to Bis in TiltEm config
+- (enhancement) Enabled the ability to toggle realistic star size
+- (enhancement) Removed duplicate ScanSat.cfg and DistanceScale.cfg in Debdeb - Core has this config, so another is unnecessary.
+- (technical) Ensure all bodies are loaded with FOR[PromisedWorlds]
+- (technical) Ensure all Rational Resources configs have NEEDS[PromisedWorlds]
+- (technical) Move all Debdeb planet names, descriptions, and biome names to localization
+- (technical) Update the version of the bundled VertexColorMapEmissive to 1.1.0
+-(documentation) Update README with information on CKAN and SpaceDock downloads
+
 # The Debdeb System
 
 ![](https://i.imgur.com/aCDOT5f.png)
@@ -68,7 +77,7 @@ Debdeb - A young G-type main-sequence star.
   - Donk - A large moon that orbits between Gurdamma's two rings. It has formed recently from a collision between Gurdamma and another body.
     
 ![](https://i.imgur.com/M0srg7s.png)
-  - Kevba's Anomaly - A wormhole that connects the Kerbolar system with the Debdeb system. Its other side is located in Eeloo orbit (or Plock orbit with OPM installed).
+  - Kevba's Anomaly - A wormhole that connects the Kerbolar system with the Debdeb system. Its other side is located in Dres orbit.
   - Gup - A tiny chunk of rock in a highly eccentric orbit. It spins rapidly, which has flattened it into a disk shape.
     
 ![](https://i.imgur.com/vZd1HHB.png)
@@ -150,3 +159,8 @@ Tuun - An F3V main-sequence star. Approximately 1.5 billion years old.
 
 # The Qeg System
 TBD. Not a promise.
+
+# Changelog
+
+## V 1.0.2
+
