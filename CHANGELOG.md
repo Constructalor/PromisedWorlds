@@ -14,4 +14,4 @@
 
 ## V1.0.3:
 - (MAJOR bugfix) Fixed null refs which Gurdamma was causing because it couldn't find the VertexColorMap textures
-- (bugfix) Fixed wormholes being invisible
+
