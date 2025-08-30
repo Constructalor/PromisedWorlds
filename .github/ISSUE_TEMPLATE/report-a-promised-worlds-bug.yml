@@ -1,0 +1,54 @@
+name: "Bug Report"
+description: "Report a bug in Promised Worlds"
+title: "[BUG] "
+labels: ["bug"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: "## Describe the bug\nWrite a clear and concise description of what the bug is."
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      placeholder: "Describe the bug here..."
+
+  - type: markdown
+    attributes:
+      value: "## Steps to reproduce the bug\nList the steps to reproduce the bug."
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to reproduce"
+      placeholder: "1. Step one\n2. Step two\n3. Step three"
+
+  - type: markdown
+    attributes:
+      value: "## Images / Screenshots\nAttach screenshots if applicable."
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Images / Screenshots"
+      placeholder: "Paste links to screenshots here..."
+
+  - type: input
+    id: promised_worlds_version
+    attributes:
+      label: "Promised Worlds version"
+      placeholder: "e.g., v1.0.2"
+
+  - type: textarea
+    id: ksp_log
+    attributes:
+      label: "KSP log"
+      placeholder: "Paste relevant portion of KSP log here..."
+
+  - type: textarea
+    id: additional_text
+    attributes:
+      label: "Additional text"
+      placeholder: "Any other details, context, or suggestions..."
