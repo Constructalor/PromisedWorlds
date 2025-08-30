@@ -10,4 +10,4 @@
 - (technical) Ensure all Rational Resources configs have NEEDS[PromisedWorlds]
 - (technical) Move all Debdeb planet names, descriptions, and biome names to localization
 - (technical) Update the version of the bundled VertexColorMapEmissive to 1.1.0
--(documentation) Update README with information on CKAN and SpaceDock downloads
+- (documentation) Update README with information on CKAN and SpaceDock downloads
