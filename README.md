@@ -21,13 +21,13 @@ If you want to stay up to date with progress or contribute, join our Discord ser
 
 ## CKAN
 - Select "Promised Worlds - Debdeb" for the Debdeb system. CKAN will install the required dependencies.
-- Tuun system: Coming Soon to CKAN!
+- Tuun system: Coming Soon!
 
 ## SpaceDock 
 You will need Promised Worlds - Core and one or more of the Promised Worlds star systems. Follow the instructions for manual install below with these files.
 - Promised Worlds - Core: https://spacedock.info/mod/3974/Promised%20Worlds%20-%20Core
 - Promised Worlds - Debdeb: https://spacedock.info/mod/3976/Promised%20Worlds%20-%20Debdeb%20System
-- Promised Worlds - Tuun: https://spacedock.info/mod/3975/Promised%20Worlds%20-%20Tuun
+- Promised Worlds - Tuun: Coming Soon!
   
 ## Manual (GitHub)
 - Download the latest version from [releases](https://github.com/Constructalor/PromisedWorlds/releases). You will need the Core zip file, along with the zip file for any systems you want. You can install any of the systems you like - you don't have to take them all.
