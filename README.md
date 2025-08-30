@@ -1,4 +1,9 @@
- ![](https://i.imgur.com/74Iovs6.jpeg) 
+![](https://i.imgur.com/74Iovs6.jpeg) 
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FKSP-CKAN%2FCKAN-meta%2Frefs%2Fheads%2Fmaster%2Fdownload_counts.json&query=PromisedWorldsCore&label=Downloads)
+![Last commit](https://img.shields.io/github/last-commit/PromisedWorlds/PromisedWorlds/main.svg)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/PromisedWorlds/PromisedWorlds)
+![KSP Version](https://img.shields.io/badge/KSP-1.12.x-blue.svg)
 # Promised Worlds
 **Promised Worlds is a faithful revival of the solar systems Intercept Games planned to release for KSP 2. Want to brave the crater lakes of Gurdamma? Launch between the molten seas of Rask and Rusk? Our team of veteran KSP 1 modders is working around the globe to bring you those experiences—and more!**
 
