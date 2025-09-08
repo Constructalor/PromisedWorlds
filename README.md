@@ -168,7 +168,4 @@ Tuun - An F3V main-sequence star. Approximately 1.5 billion years old.
 # The Qeg System
 TBD. Not a promise.
 
-# Changelog
-
-## V 1.0.2
 
