@@ -1,0 +1,41 @@
+---
+feature_request:
+  mod_name: Promised Worlds
+  title: "[Feature] - [Brief Title of the Request]"
+
+  description: |
+    A brief description of the feature you're requesting.
+    What would this feature add or change in the mod? How would it enhance the user experience or gameplay?
+
+  feature:
+    name: "[Feature Name]"
+    description: |
+      "[Detailed description of the feature. What does it do? How does it impact gameplay or the mod experience?]"
+    purpose: |
+      "[Explain the purpose of the feature. Does it solve an existing problem? Does it enhance the player's immersion or experience in the mod?]"
+    expected_behavior: |
+      "[Describe how this feature should work in-game. How should it behave under normal conditions? What are the expected results of activating or using this feature?]"
+
+  technical_details:
+    implementation: |
+      "[If you have any ideas on how this feature might be implemented, describe it here. For example, does it require new mechanics or UI changes?]"
+    dependencies: |
+      "[List any dependencies for this feature (e.g., other mods). If you're not sure, leave it blank.]"
+
+  impact_assessment:
+    gameplay_impact: |
+      "[How does this feature affect gameplay? Does it make the game more challenging, immersive, or enjoyable? Is it something players would benefit from?]"
+    compatibility: |
+      "[Will this feature cause any compatibility issues with other mods or game features? If so, what are they?]"
+    performance_impact: |
+      "[Will this feature impact performance (FPS, memory usage, etc.)? If you're not sure, leave this blank.]"
+
+  additional_notes:
+    "Any extra context, visuals, references, or inspiration from other games/mods that could help the developers understand your idea more clearly."
+
+  potential_challenges:
+    "[If there are any challenges or obstacles you anticipate with implementing this feature, mention them here (e.g., technical limitations, balancing concerns).]"
+
+  community_feedback:
+    "[Feel free to share any feedback from the community or how you think players might react to this feature.]"
+
