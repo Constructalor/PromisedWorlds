@@ -1,41 +1,109 @@
 ---
-feature_request:
-  mod_name: Promised Worlds
-  title: "[Feature] - [Brief Title of the Request]"
+name: "Feature Request"
+description: "Submit a feature request for Promised Worlds"
+title: "[FEATURE] - [Brief Title of the Request]"
+labels: ["Feature"]
+assignees: []
 
-  description: |
-    A brief description of the feature you're requesting.
-    What would this feature add or change in the mod? How would it enhance the user experience or gameplay?
+body:
+  - type: markdown
+    attributes:
+      value: "## Feature Description\nDescribe the feature you're requesting. What does it do? How will it enhance the gameplay experience in Promised Worlds?"
 
-  feature:
-    name: "[Feature Name]"
-    description: |
-      "[Detailed description of the feature. What does it do? How does it impact gameplay or the mod experience?]"
-    purpose: |
-      "[Explain the purpose of the feature. Does it solve an existing problem? Does it enhance the player's immersion or experience in the mod?]"
-    expected_behavior: |
-      "[Describe how this feature should work in-game. How should it behave under normal conditions? What are the expected results of activating or using this feature?]"
+  - type: textarea
+    id: feature_description
+    attributes:
+      label: "Feature Description"
+      placeholder: "Provide a detailed description of the feature you'd like to see."
 
-  technical_details:
-    implementation: |
-      "[If you have any ideas on how this feature might be implemented, describe it here. For example, does it require new mechanics or UI changes?]"
-    dependencies: |
-      "[List any dependencies for this feature (e.g., other mods). If you're not sure, leave it blank.]"
+  - type: markdown
+    attributes:
+      value: "## Purpose\nWhat problem does this feature solve, or what aspect of the gameplay does it improve?"
 
-  impact_assessment:
-    gameplay_impact: |
-      "[How does this feature affect gameplay? Does it make the game more challenging, immersive, or enjoyable? Is it something players would benefit from?]"
-    compatibility: |
-      "[Will this feature cause any compatibility issues with other mods or game features? If so, what are they?]"
-    performance_impact: |
-      "[Will this feature impact performance (FPS, memory usage, etc.)? If you're not sure, leave this blank.]"
+  - type: textarea
+    id: feature_purpose
+    attributes:
+      label: "Purpose"
+      placeholder: "Explain why this feature is needed and how it could improve the game."
 
-  additional_notes:
-    "Any extra context, visuals, references, or inspiration from other games/mods that could help the developers understand your idea more clearly."
+  - type: markdown
+    attributes:
+      value: "## Expected Behavior\nHow should the feature behave in-game? What would the player experience when using it?"
 
-  potential_challenges:
-    "[If there are any challenges or obstacles you anticipate with implementing this feature, mention them here (e.g., technical limitations, balancing concerns).]"
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: "Expected Behavior"
+      placeholder: "Describe how you expect this feature to work in the game."
 
-  community_feedback:
-    "[Feel free to share any feedback from the community or how you think players might react to this feature.]"
+  - type: markdown
+    attributes:
+      value: "## Technical Details\nDo you have any thoughts on how this feature could be implemented? Is it based on any existing mods, mechanics, or features?"
 
+  - type: textarea
+    id: technical_details
+    attributes:
+      label: "Technical Details"
+      placeholder: "If you have any ideas for implementation, describe them here."
+
+  - type: markdown
+    attributes:
+      value: "## Dependencies\nAre there any dependencies for this feature (e.g., other mods)?"
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: "Dependencies"
+      placeholder: "List any dependencies if applicable, or leave blank if not sure."
+
+  - type: markdown
+    attributes:
+      value: "## Impact Assessment\nHow will this feature impact the gameplay and performance?"
+
+  - type: textarea
+    id: gameplay_impact
+    attributes:
+      label: "Gameplay Impact"
+      placeholder: "How will this feature affect gameplay? Will it make the game more immersive or enjoyable?"
+
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: "Compatibility"
+      placeholder: "Will this feature cause any compatibility issues with other mods or game features? If so, what are they?"
+
+  - type: textarea
+    id: performance_impact
+    attributes:
+      label: "Performance Impact"
+      placeholder: "Will this feature impact performance (FPS, memory usage, etc.)? If you're unsure, leave blank."
+
+  - type: markdown
+    attributes:
+      value: "## Potential Challenges\nAre there any challenges or obstacles you foresee in implementing this feature?"
+
+  - type: textarea
+    id: potential_challenges
+    attributes:
+      label: "Potential Challenges"
+      placeholder: "Mention any potential technical or gameplay challenges."
+
+  - type: markdown
+    attributes:
+      value: "## Additional Notes\nIs there anything else you'd like to add about the feature or how it could improve the mod?"
+
+  - type: textarea
+    id: additional_notes
+    attributes:
+      label: "Additional Notes"
+      placeholder: "Add any extra context or ideas here."
+
+  - type: markdown
+    attributes:
+      value: "## Priority\nHow important is this feature to you? Please rate the priority level."
+
+  - type: input
+    id: priority
+    attributes:
+      label: "Priority"
+      placeholder: "Low / Medium / High"
