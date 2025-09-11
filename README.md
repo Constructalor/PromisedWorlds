@@ -46,7 +46,7 @@ In the PromisedWorlds directory there is PromisedWorldsSettings.cfg with options
 - RealisticStarSize (Makes the stars more realistically sized relative to the planets)
 
 # Changelog
-## V1.0.2:
+## v1.0.2:
 - (bugfix) Restored wormhole to the Debdeb system, if enabled. The Kerbol end is now around Dres. Finally, a purpose!
 - (bugfix) Made Charr's Hot Craters and Molten Craters dangerous as designed
 - (bugfix) Stopped a ModuleManager warning when loading the game
@@ -59,9 +59,8 @@ In the PromisedWorlds directory there is PromisedWorldsSettings.cfg with options
 - (technical) Update the version of the bundled VertexColorMapEmissive to 1.1.0
 - (documentation) Update README with information on CKAN and SpaceDock downloads
   
-## V1.0.3:
+## v1.0.3:
 - (MAJOR bugfix) Fixed null refs which Gurdamma was causing because it couldn't find the VertexColorMap textures
 
-## Included Star Systems
-More information about the Star Systems and anything other regarding Promised Worlds is in our wiki 
-https://github.com/PromisedWorlds/PromisedWorlds/wiki
+## Information about all of the Star Systems can be found below
+More information about the Star Systems and anything other regarding Promised Worlds is up on our [Wiki](https://github.com/PromisedWorlds/PromisedWorlds/wiki), check it out! :D
