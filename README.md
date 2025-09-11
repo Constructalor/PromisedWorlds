@@ -62,5 +62,5 @@ In the PromisedWorlds directory there is PromisedWorldsSettings.cfg with options
 ## v1.0.3:
 - (MAJOR bugfix) Fixed null refs which Gurdamma was causing because it couldn't find the VertexColorMap textures
 
-## Information about all of the Star Systems can be found below
+## Wiki
 More information about the Star Systems and anything other regarding Promised Worlds is up on our [Wiki](https://github.com/PromisedWorlds/PromisedWorlds/wiki), check it out! :D
