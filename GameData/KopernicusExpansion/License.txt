@@ -1,0 +1,6 @@
+GNU GENERAL PUBLIC LICENSE
+
+Full License:    https://gnu.org/licenses/gpl-3.0.txt
+
+NOTE: Software is provided as is, meaning that you run it at your own risk. I (the author) am not liable for any harm done to your computer.
+
