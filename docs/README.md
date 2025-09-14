@@ -45,47 +45,10 @@ In the PromisedWorlds directory there is PromisedWorldsSettings.cfg with options
 - RealisticStarSize (Makes the stars more realistically sized relative to the planets)
 
 # Most Recent Changes
-For the full changelog, see CHANGELOG.md
-NEW FEATURES / IMPROVEMENTS:
-- Random planets will now be shown on the game main menu instead of Kerbin.
-- Several custom flags have been added
-- Debdeb's protoplanetary disk has been redesigned, featuring a more natural appearance.
-- Wormholes are finally working. For real. Mostly. They even actually appear. Kevba's Anomaly goes from Dres to Gurdamma, if enabled in the settings file.
-- There are now EVA report science definitions for the Debdeb system!
-- Gurdamma now experiences volcanic winters with volumetric clouds - every few years, volcanic clouds cover the planet, plunging it into months of darkness.
-- Axod and Glumo have had their volumetric clouds revamped! Dive deep into these gas giants' underworlds for mysterious alien views.
-- Mesma and Omasa have been remade with 8K textures and new appearances! Mesma has been moved as well.
-- New icons for the Debdeb system planets!
-- Redo Debdeb's appearance, for those who look closely past the protoplanetary disk.
-- Better Kerbalism and resource configs for the Debdeb system
-
+## V1.1.1:
 BUGFIXES:
-- Debdeb's heating no longer destroys crafts before they can get to Charr. Go forth and explore the molten world!
-- Kleid now has a description! We're sorry for forgetting you, Kleid.
-- Kleid's In Space Low / In Space High transition altitude has been raised to 100,000m. Kleid can't catch a break.
-- Fixed the transition between Parallax Scaled and PQS terrain.
-- Fixed Dorau's clouds appearing blocky and causing "missing texture" log spam.
-- Adjusted the Scatterer settings for Rosh's atmosphere.
-- Fix up Noj's biomes to work. We've very proud of them!
-- Fix Jut to use the correct biome map.
-- Fix PQS issues on Merbel
-
-TECHNICAL IMPROVEMENTS:
-- ScaledDecorator dependency updated to 1.2 - it will now warn if users do not have D3D11 (relevant for Mac and Linux)
-- ScaledDecorator is now bundled with Promised Worlds - Core for ease of installation
-- License information has been updated for clarity and compliance with licenses.
-- The localization file is now shared between all systems, and has been moved to Promised Worlds - Core.
-- EVE cloud textures have been moved to load on demand - that means about 500 MiB less data to load at game launch for the Debdeb system. It also means that these textures won't take up space in RAM when they're not needed, such as when you're at a different planet.
-- Remove Donk volcano cloud configs and textures for now, as they're broken. They will be re-added when fixed
-- Remove unused Dysto cloud texture. It was just taking up space.
-- Do some cleanup of planet .cfg files for better readability
-- Use Kopernicus On-Demand loading for all ScaledSpace textures - should save memory and loading time!
-- Switch RealisticStarSize to false by default to be more stockalike.
-- Remove unused settings.
-- Add an SOI to Debdeb so that it doesn't extend forever
-
-LICENSE CHANGE:
-- Going forward, Promised Worlds will be released under the CC-BY-NC-SA license. This means that you will not be allowed to make derivatives for commercial purposes. Promised Worlds is of course still free to download and play, and can be freely modified for non-commercial uses as well, with attribution provided. This change was made to protect Promised Worlds' assets from being taken and used for commercial projects, and does not impact normal end users. 
+- Remove planets with rings and atmospheres from being the random body on the loading screen, as they have issues.
+- Remove stock loading screens from the rotation - only ours!
 
 ## Wiki
 More information about the Star Systems and anything other regarding Promised Worlds is up on our [Wiki](https://github.com/PromisedWorlds/PromisedWorlds/wiki), check it out! :D

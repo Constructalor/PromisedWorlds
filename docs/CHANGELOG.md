@@ -56,3 +56,8 @@ TECHNICAL IMPROVEMENTS:
 
 LICENSE CHANGE:
 - Going forward, Promised Worlds will be released under the CC-BY-NC-SA license. This means that you will not be allowed to make derivatives for commercial purposes. Promised Worlds is of course still free to download and play, and can be freely modified for non-commercial uses as well, with attribution provided. This change was made to protect Promised Worlds' assets from being taken and used for commercial projects, and does not impact normal end users. 
+
+## V1.1.1:
+BUGFIXES:
+- Remove planets with rings and atmospheres from being the random body on the loading screen, as they have issues.
+- Remove stock loading screens from the rotation - only ours!
