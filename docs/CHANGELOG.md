@@ -70,7 +70,6 @@ NEW FEATURES / IMPROVEMENTS:
 
 BUGFIXES:
 - Update Omasa's description to reflect the change in Mesma's orbit
-- Removed ringed and atmospheric planets from being selected as the random main menu body, as rings would block the main menu text.
 
 TECHNICAL IMPROVEMENTS:
 - Move all science definitions to localization. If you would like to help translate Promised Worlds, please ping @levitato5594 on our Discord server!
