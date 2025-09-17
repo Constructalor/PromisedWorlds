@@ -1,5 +1,5 @@
 ![](https://i.imgur.com/74Iovs6.jpeg) 
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+![License](https://img.shields.io/badge/License-CC%E2%80%93BY%E2%80%93NC%E2%80%93SA-green.svg)
 ![Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FKSP-CKAN%2FCKAN-meta%2Frefs%2Fheads%2Fmaster%2Fdownload_counts.json&query=PromisedWorldsCore&label=Downloads)
 ![Last commit](https://img.shields.io/github/last-commit/PromisedWorlds/PromisedWorlds/main.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/PromisedWorlds/PromisedWorlds)
@@ -24,8 +24,8 @@ If you want to stay up to date with progress or contribute, join our Discord ser
 - Tuun system: Coming Soon!
 
 ## SpaceDock 
-SpaceDock installation is no longer supported. We have had repeated issues with uploading large files which make it impossible for us to keep updating the mod on SpaceDock. Please install via CKAN or by GitHub. If you have issues with GitHub, please contact a developer on the Discord server #help channel.
-
+- SpaceDock is no longer being supported by Promised Worlds.
+  
 ## Manual (GitHub)
 - Download the latest version from [releases](https://github.com/Constructalor/PromisedWorlds/releases). You will need the Core zip file, along with the zip file for any systems you want. You can install any of the systems you like - you don't have to take them all.
 - Extract the Core zip file, and put the contents of GameData in your GameData directory.
@@ -57,4 +57,4 @@ TECHNICAL IMPROVEMENTS:
 - Planet debug settings are now a global toggle, under the debug section of PromisedWorldsSettings.cfg
 
 ## Wiki
-More information about the Star Systems and anything other regarding Promised Worlds is up on our [Wiki](https://github.com/PromisedWorlds/PromisedWorlds/wiki), check it out! :D
+More information about the Star Systems and anything other regarding Promised Worlds is up on our [Wiki](https://github.com/PromisedWorlds/PromisedWorlds/wiki), check it out!
