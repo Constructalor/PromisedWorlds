@@ -24,11 +24,8 @@ If you want to stay up to date with progress or contribute, join our Discord ser
 - Tuun system: Coming Soon!
 
 ## SpaceDock 
-You will need Promised Worlds - Core and one or more of the Promised Worlds star systems. Follow the instructions for manual install below with these files.
-- Promised Worlds - Core: https://spacedock.info/mod/3974/Promised%20Worlds%20-%20Core
-- Promised Worlds - Debdeb: https://spacedock.info/mod/3976/Promised%20Worlds%20-%20Debdeb%20System
-- Promised Worlds - Tuun: Coming Soon!
-  
+SpaceDock installation is no longer supported. We have had repeated issues with uploading large files which make it impossible for us to keep updating the mod on SpaceDock. Please install via CKAN or by GitHub. If you have issues with GitHub, please contact a developer on the Discord server #help channel.
+
 ## Manual (GitHub)
 - Download the latest version from [releases](https://github.com/Constructalor/PromisedWorlds/releases). You will need the Core zip file, along with the zip file for any systems you want. You can install any of the systems you like - you don't have to take them all.
 - Extract the Core zip file, and put the contents of GameData in your GameData directory.
@@ -45,10 +42,20 @@ In the PromisedWorlds directory there is PromisedWorldsSettings.cfg with options
 - RealisticStarSize (Makes the stars more realistically sized relative to the planets)
 
 # Most Recent Changes
-## V1.1.1:
+## V1.1.2:
+NEW FEATURES / IMPROVEMENTS:
+- Improve Lapat and Ovin's ScaledSpace
+- Random main menu bodies are now optional. Change RandomMainMenuBody to false in PromisedWorldsSettings.cfg to disable it and return to stock behavior.
+- Glumo has a new orbit icon
+
 BUGFIXES:
-- Remove planets with rings and atmospheres from being the random body on the loading screen, as they have issues.
-- Remove stock loading screens from the rotation - only ours!
+- Update Omasa's description to reflect the change in Mesma's orbit
+- Removed ringed and atmospheric planets from being selected as the random main menu body, as rings would block the main menu text.
+
+TECHNICAL IMPROVEMENTS:
+- Move all science definitions to localization. If you would like to help translate Promised Worlds, please ping @levitato5594 on our Discord server!
+- Add dummy ModuleManager config to make it easier to detect installed systems. You can now do NEEDS[SystemDebdeb] to detect whether the Debdeb system is installed. This will be useful for mod developers wanting to be compatible with Promised Worlds.
+- Planet debug settings are now a global toggle, under the debug section of PromisedWorldsSettings.cfg
 
 ## Wiki
 More information about the Star Systems and anything other regarding Promised Worlds is up on our [Wiki](https://github.com/PromisedWorlds/PromisedWorlds/wiki), check it out! :D
