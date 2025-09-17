@@ -56,3 +56,22 @@ TECHNICAL IMPROVEMENTS:
 
 LICENSE CHANGE:
 - Going forward, Promised Worlds will be released under the CC-BY-NC-SA license. This means that you will not be allowed to make derivatives for commercial purposes. Promised Worlds is of course still free to download and play, and can be freely modified for non-commercial uses as well, with attribution provided. This change was made to protect Promised Worlds' assets from being taken and used for commercial projects, and does not impact normal end users. 
+
+## V1.1.1:
+BUGFIXES:
+- Remove planets with rings and atmospheres from being the random body on the loading screen, as they have issues.
+- Remove stock loading screens from the rotation - only ours!
+
+## V1.1.2:
+NEW FEATURES / IMPROVEMENTS:
+- Improve Lapat and Ovin's ScaledSpace
+- Random main menu bodies are now optional. Change RandomMainMenuBody to false in PromisedWorldsSettings.cfg to disable it and return to stock behavior.
+- Glumo has a new orbit icon
+
+BUGFIXES:
+- Update Omasa's description to reflect the change in Mesma's orbit
+
+TECHNICAL IMPROVEMENTS:
+- Move all science definitions to localization. If you would like to help translate Promised Worlds, please ping @levitato5594 on our Discord server!
+- Add dummy ModuleManager config to make it easier to detect installed systems. You can now do NEEDS[SystemDebdeb] to detect whether the Debdeb system is installed. This will be useful for mod developers wanting to be compatible with Promised Worlds.
+- Planet debug settings are now a global toggle, under the debug section of PromisedWorldsSettings.cfg
