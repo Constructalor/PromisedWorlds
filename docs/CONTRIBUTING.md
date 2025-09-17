@@ -1,1 +1,1 @@
-
+By contributing, you agree that your contributions will be licensed under the Attribution-NonCommercial-ShareAlike 4.0 International license. See https://github.com/PromisedWorlds/PromisedWorlds/blob/main/LICENSE.md for more.
